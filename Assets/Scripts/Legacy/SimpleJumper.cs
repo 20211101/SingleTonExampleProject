@@ -7,5 +7,7 @@ public class SimpleJumper : MonoBehaviour
     void Start()
     {
         rigidbody.AddForce(0, 1000, 0);
+        Debug.Log("Hello World!");
+        // 헬로 월드 로그 출력했지롱~
     }
 }
